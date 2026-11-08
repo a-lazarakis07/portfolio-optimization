@@ -1,0 +1,123 @@
+# Source-grounded review notes, not a complete security master or PIT database.
+T:
+  identity_valid_from: '2005-12-01'
+  warning: Current T follows the SBC legal/share lineage before 2005; it must not be confused with the separate legacy AT&T Corp series. WarnerMedia distribution changes business exposure and requires distribution-adjustment review.
+  sources:
+    - https://investors.att.com/stockholder-services/cost-basis-guide/worksheet/att-corp
+    - https://investors.att.com/stock-information/historical-stock-information/historical-quote/att-inc
+  events:
+    - date: '2022-04-08'
+      type: spin_off
+      description: WarnerMedia distribution; source prices and adjusted-return treatment require review.
+      source_url: https://investors.att.com/stock-information/historical-stock-information/historical-quote/att-inc
+VZ:
+  identity_valid_from: '2000-07-03'
+  warning: Pre-July-2000 provider history represents Bell Atlantic/predecessor lineage, not an unchanged Verizon economic entity. VZ began NYSE trading after the Bell Atlantic/GTE combination.
+  sources:
+    - https://www.verizon.com/about/sites/default/files/Verizon_Corporate_History.pdf
+  events:
+    - date: '2000-06-30'
+      type: merger
+      description: Bell Atlantic/GTE merger forms Verizon; predecessor exposure is not constant business exposure.
+      source_url: https://www.verizon.com/about/our-company/history-and-timeline
+HON:
+  identity_valid_from: '1999-12-01'
+  warning: Earlier provider lineage predates the AlliedSignal/Honeywell combination. Solstice and Aerospace distributions change business exposure; current HON is the automation parent, not GE or HONA. Yahoo corporate-action factors must not be interpreted as verified share-conversion ratios.
+  sources:
+    - https://www.honeywell.com/us/en/company/history
+    - https://www.nasdaqtrader.com/TraderNews.aspx?id=ECA2026-399
+  events:
+    - date: '2025-10-30'
+      type: spin_off
+      description: Solstice separation; inspect provider distribution-adjustment treatment.
+      source_url: https://www.solstice.com/us/en/about-us/solstice-advanced-materials-history-and-brand-transition
+    - date: '2026-06-29'
+      type: spin_off_and_reverse_split
+      expected_stock_split: 0.5
+      description: Aerospace spin-off plus official one-for-two reverse split; a combined provider factor is not the legal share conversion ratio.
+      source_url: https://www.nasdaqtrader.com/TraderNews.aspx?id=ECA2026-399
+CMCSA:
+  identity_valid_from: '2002-11-18'
+  warning: Pre-November-2002 provider series maps legacy Comcast into the combined AT&T Broadband/Comcast issuer. Versant separation changes the current economic mix; no separate spun-off history is manually appended.
+  sources:
+    - https://corporate.comcast.com/news-information/news-feed/comcast-completes-att-broadband-transaction
+    - https://cmcsa.gcs-web.com/news-releases/news-release-details/comcast-announces-completion-separation-versant-media-group-inc
+  events:
+    - date: '2002-11-18'
+      type: merger
+      description: AT&T Broadband and Comcast combined into a new parent issuer.
+      source_url: https://corporate.comcast.com/news-information/news-feed/comcast-completes-att-broadband-transaction
+    - date: '2026-01-05'
+      type: spin_off
+      description: First regular-way session following the January 2 Versant distribution.
+      source_url: https://cmcsa.gcs-web.com/news-releases/news-release-details/comcast-announces-completion-separation-versant-media-group-inc
+GOOG:
+  identity_valid_from: '2014-04-03'
+  warning: Yahoo maps Google history back to its 2004 IPO, but the current Class C shares were distributed in April 2014. Earlier rows are a flagged provider share-class/predecessor proxy, not evidence that Class C was independently tradable in 2004.
+  sources:
+    - https://ir.nasdaq.com/node/81631
+  events:
+    - date: '2014-04-03'
+      type: share_class_distribution
+      description: Google Class C distribution; do not equate backmapped history with current-class investability.
+      source_url: https://ir.nasdaq.com/node/81631
+VLO:
+  identity_valid_from: '1998-01-01'
+  warning: The issuer describes a 1997-1998 gas-business merger and refinery spin-off. Pre-1998 rows are conservatively marked predecessor-review proxies; the January 1 boundary is an audit convention, not a claimed exact listing date.
+  sources:
+    - https://www.valero.com/about/our-history
+COP:
+  identity_valid_from: '2012-05-01'
+  warning: Earlier provider observations include integrated-company and predecessor exposure; the May 2012 Phillips 66 separation creates the current independent E&P focus. The review boundary is not a claim that the COP share lineage first existed in 2012.
+  sources:
+    - https://www.conocophillips.com/about-us/our-history/
+  events:
+    - date: '2012-05-01'
+      type: spin_off
+      description: Phillips 66 downstream separation changes economic exposure.
+      source_url: https://www.conocophillips.com/about-us/our-history/
+ABT:
+  warning: The AbbVie separation changes Abbott's economic mix; no AbbVie series is appended to the parent history.
+  sources:
+    - https://abbottinvestor.gcs-web.com/stock-info/dividend-split-history
+  events:
+    - date: '2013-01-02'
+      type: spin_off
+      description: First session following the January 1 AbbVie separation; distribution adjustment requires review.
+      source_url: https://abbottinvestor.gcs-web.com/stock-info/dividend-split-history
+IBM:
+  warning: The Kyndryl distribution changes business composition and requires provider adjustment review.
+  sources:
+    - https://www.ibm.com/investor/services/faqs-about-the-kyndryl-holdings-inc-distribution
+  events:
+    - date: '2021-11-04'
+      type: spin_off
+      description: First regular-way Kyndryl session following the November 3 after-close distribution.
+      source_url: https://newsroom.ibm.com/2021-11-03-IBM-Completes-the-Separation-of-Kyndryl
+MRK:
+  warning: The Organon distribution changes Merck's business composition; provider total-return adjustment requires review.
+  sources:
+    - https://www.merck.com/news/merck-announces-completion-of-organon-co-spinoff/
+  events:
+    - date: '2021-06-03'
+      type: spin_off
+      description: Merck completes the Organon separation.
+      source_url: https://www.merck.com/news/merck-announces-completion-of-organon-co-spinoff/
+PFE:
+  warning: Upjohn's separation and combination with Mylan into Viatris changes Pfizer's economic mix.
+  sources:
+    - https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-transaction-combine-its-upjohn-business
+  events:
+    - date: '2020-11-16'
+      type: spin_off_and_merger
+      description: Upjohn distribution and Mylan combination form Viatris; do not splice Viatris history into Pfizer.
+      source_url: https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-transaction-combine-its-upjohn-business
+JNJ:
+  warning: The Kenvue split-off used an exchange offer, not a universal pro-rata cash dividend or ordinary stock split. Economic exposure changed; provider adjustments require review.
+  sources:
+    - https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-final-results-of-exchange-offer-and-finalizes-separation-of-kenvue-inc
+  events:
+    - date: '2023-08-23'
+      type: split_off_exchange_offer
+      description: Kenvue final separation through exchange offer; do not treat as a simple universal stock dividend.
+      source_url: https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-final-results-of-exchange-offer-and-finalizes-separation-of-kenvue-inc

@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sgc-portfolio-backtester"
+version = "0.2.0"
+description = "SGC historical equity and six-factor regression research pipelines"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "pandas>=2.2,<3", "numpy>=1.26,<2.4", "yfinance>=0.2.65,<1",
+  "pyarrow>=17,<25", "PyYAML>=6,<7", "exchange-calendars>=4.5,<5",
+  "curl_cffi>=0.7,<1",
+  "statsmodels>=0.14.4,<0.16", "plotly>=6,<7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+sgc-data = "portfolio_backtester.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"
+markers = ["integration: opt-in live Yahoo Finance test"]

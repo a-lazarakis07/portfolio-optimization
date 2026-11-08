@@ -1,0 +1,61 @@
+ticker,company_name,sector,currency,source_ticker,universe_version
+AAPL,APPLE,Information Technology,USD,AAPL,v2-long-history-60
+ABT,ABBOTT LABORATORIES,Health Care,USD,ABT,v2-long-history-60
+AEP,AMERICAN ELECTRIC POWER INC,Utilities,USD,AEP,v2-long-history-60
+AMAT,APPLIED MATERIAL INC,Information Technology,USD,AMAT,v2-long-history-60
+AMD,ADVANCED MICRO DEVICES,Information Technology,USD,AMD,v2-long-history-60
+AMGN,AMGEN INC,Health Care,USD,AMGN,v2-long-history-60
+AMT,AMERICAN TOWER REIT,Real Estate,USD,AMT,v2-long-history-60
+AMZN,AMAZON.COM INC,Consumer Discretionary,USD,AMZN,v2-long-history-60
+AXP,AMERICAN EXPRESS,Financials,USD,AXP,v2-long-history-60
+BA,BOEING,Industrials,USD,BA,v2-long-history-60
+BAC,BANK OF AMERICA,Financials,USD,BAC,v2-long-history-60
+BRK-B,BERKSHIRE HATHAWAY INC CLASS B,Financials,USD,BRK-B,v2-long-history-60
+C,CITIGROUP,Financials,USD,C,v2-long-history-60
+CAT,CATERPILLAR INC,Industrials,USD,CAT,v2-long-history-60
+CMCSA,Comcast Corporation,Communication,USD,CMCSA,v2-long-history-60
+COP,CONOCOPHILLIPS,Energy,USD,COP,v2-long-history-60
+COST,COSTCO WHOLESALE CORP,Consumer Staples,USD,COST,v2-long-history-60
+CSCO,CISCO SYSTEMS INC,Information Technology,USD,CSCO,v2-long-history-60
+CVX,CHEVRON,Energy,USD,CVX,v2-long-history-60
+DE,DEERE,Industrials,USD,DE,v2-long-history-60
+DIS,WALT DISNEY,Communication,USD,DIS,v2-long-history-60
+DUK,DUKE ENERGY CORP,Utilities,USD,DUK,v2-long-history-60
+ETN,EATON PLC,Industrials,USD,ETN,v2-long-history-60
+FCX,FREEPORT MCMORAN INC,Materials,USD,FCX,v2-long-history-60
+GILD,GILEAD SCIENCES,Health Care,USD,GILD,v2-long-history-60
+GOOG,ALPHABET CLASS C,Communication,USD,GOOG,v2-long-history-60
+GS,GOLDMAN SACHS GROUP,Financials,USD,GS,v2-long-history-60
+HD,HOME DEPOT,Consumer Discretionary,USD,HD,v2-long-history-60
+HON,Honeywell Technologies Inc.,Industrials,USD,HON,v2-long-history-60
+IBM,INTERNATIONAL BUSINESS MACHINES CO,Information Technology,USD,IBM,v2-long-history-60
+INTC,INTEL CORPORATION,Information Technology,USD,INTC,v2-long-history-60
+JNJ,JOHNSON & JOHNSON,Health Care,USD,JNJ,v2-long-history-60
+JPM,JPMORGAN CHASE & CO,Financials,USD,JPM,v2-long-history-60
+KO,COCA-COLA,Consumer Staples,USD,KO,v2-long-history-60
+LLY,ELI LILLY,Health Care,USD,LLY,v2-long-history-60
+LOW,"Lowe's Companies, Inc.",Consumer Discretionary,USD,LOW,v2-long-history-60
+MCD,MCDONALDS CORP,Consumer Discretionary,USD,MCD,v2-long-history-60
+MRK,MERCK & CO INC,Health Care,USD,MRK,v2-long-history-60
+MS,MORGAN STANLEY,Financials,USD,MS,v2-long-history-60
+MSFT,MICROSOFT,Information Technology,USD,MSFT,v2-long-history-60
+NEM,NEWMONT,Materials,USD,NEM,v2-long-history-60
+NVDA,NVIDIA,Information Technology,USD,NVDA,v2-long-history-60
+ORCL,ORACLE,Information Technology,USD,ORCL,v2-long-history-60
+PEP,PEPSICO,Consumer Staples,USD,PEP,v2-long-history-60
+PFE,PFIZER,Health Care,USD,PFE,v2-long-history-60
+PG,PROCTER & GAMBLE,Consumer Staples,USD,PG,v2-long-history-60
+PSA,Public Storage,Real Estate,USD,PSA,v2-long-history-60
+QCOM,QUALCOMM,Information Technology,USD,QCOM,v2-long-history-60
+SHW,SHERWIN WILLIAMS,Materials,USD,SHW,v2-long-history-60
+SO,SOUTHERN,Utilities,USD,SO,v2-long-history-60
+SPG,"Simon Property Group, Inc.",Real Estate,USD,SPG,v2-long-history-60
+T,AT&T,Communication,USD,T,v2-long-history-60
+TJX,TJX,Consumer Discretionary,USD,TJX,v2-long-history-60
+UNH,UNITEDHEALTH GROUP,Health Care,USD,UNH,v2-long-history-60
+UNP,UNION PACIFIC,Industrials,USD,UNP,v2-long-history-60
+VLO,VALERO ENERGY CORP,Energy,USD,VLO,v2-long-history-60
+VZ,VERIZON COMMUNICATIONS INC,Communication,USD,VZ,v2-long-history-60
+WFC,WELLS FARGO,Financials,USD,WFC,v2-long-history-60
+WMT,WALMART,Consumer Staples,USD,WMT,v2-long-history-60
+XOM,EXXONMOBIL HOLDINGS CORP,Energy,USD,XOM,v2-long-history-60

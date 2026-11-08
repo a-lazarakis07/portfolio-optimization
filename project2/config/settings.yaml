@@ -1,0 +1,42 @@
+data_provider: yahoo
+start_date: '1995-01-01'
+end_date_policy: latest_completed_session
+end_date: null
+frequency: 1d
+market_calendar: XNYS
+expected_currency: USD
+completion_delay_minutes: 30
+universe_path: config/universe.csv
+universe_manifest_path: config/universe_manifest.json
+raw_data_path: data/raw
+processed_data_path: data/processed
+metadata_path: data/metadata
+cache_path: .cache/yfinance
+retry:
+  max_attempts: 3
+  backoff_seconds: 2.0
+  max_backoff_seconds: 30.0
+request_timeout_seconds: 20
+request_pacing_seconds: 0.5
+batch_size: 10
+batch_pause_seconds: 2.0
+refresh_overlap_days: 10
+extreme_return_threshold: 0.50
+metadata_refresh_policy: manual
+metadata_max_age_days: 30
+
+# Phase 2: official daily factors and historical six-factor OLS estimates.
+factor_raw_data_path: data/raw/factors
+factor_data_path: data/processed/factors_daily.parquet
+factor_manifest_path: data/metadata/factor_manifest.json
+ff5_url: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_5_Factors_2x3_daily_CSV.zip
+momentum_url: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Momentum_Factor_daily_CSV.zip
+regression_panel_path: data/processed/regression_panel.parquet
+regression_results_path: data/processed/factor_regression_results.parquet
+regression_report_path: data/metadata/regression_report.json
+regression_csv_path: outputs/factor_regression_results.csv
+dashboard_path: reports/factor_dashboard.html
+regression_window: 756
+minimum_valid_observations: 504
+estimation_method: OLS
+annualization_factor: 252

@@ -1,0 +1,33 @@
+# Raw market datasets and local-only artifacts remain excluded
+/data/
+/backups/
+/Papers/
+
+# Publish only vetted research outputs; ignore other generated files
+/outputs/*
+!/outputs/factor_regression_results.csv
+!/outputs/universe_corporate_action_review.csv
+!/outputs/universe_history_coverage.csv
+/reports/*
+!/reports/factor_dashboard.html
+!/reports/factor_dashboard_preview.jpg
+
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.cache/
+build/
+dist/
+
+# Local user configuration and operating-system files
+.env
+.env.*
+!.env.example
+*.local.yaml
+.DS_Store
+.idea/
+.vscode/
+*.log
